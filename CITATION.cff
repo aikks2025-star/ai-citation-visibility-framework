@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this framework, please cite it using the metadata below."
+title: "AI Citation Visibility Framework: MAHI Index, MAD-M Decay Model, and MAHI-100 Benchmark"
+abstract: "A reproducible measurement framework for AI visibility across ChatGPT, Claude, Perplexity, Google AI Overviews, and Microsoft Copilot. Defines the MAHI Index (Marketing Agent Health Index), the MAD-M (Marketing Agent Decay Model), and the MAHI-100 benchmark for evaluating how AI systems decide which businesses to cite."
+type: software
+authors:
+  - family-names: "Shrider"
+    given-names: "Kristina"
+    orcid: "https://orcid.org/0009-0002-2655-4629"
+    affiliation: "AI Marketing Research Institute (AIMRI); Market Disruptors Agency"
+    city: "Orlando"
+    region: "FL"
+    country: "US"
+repository-code: "https://github.com/aikks2025-star/ai-citation-visibility-framework"
+url: "https://github.com/aikks2025-star/ai-citation-visibility-framework"
+license: MIT
+keywords:
+  - AI citation
+  - answer engine optimization
+  - generative engine optimization
+  - AEO
+  - GEO
+  - MAHI Index
+  - MAD-M
+  - MAHI-100
+  - LLM visibility
+  - ChatGPT
+  - Claude
+  - Perplexity
+  - Google AI Overviews
+  - Microsoft Copilot
+version: "0.1.0"
+date-released: "2025-01-20"
