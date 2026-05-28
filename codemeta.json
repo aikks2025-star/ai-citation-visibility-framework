@@ -1,0 +1,55 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "SoftwareSourceCode",
+  "name": "AI Citation Visibility Framework: MAHI Index, MAD-M Decay Model, and MAHI-100 Benchmark",
+  "description": "A reproducible measurement framework for AI visibility across ChatGPT, Claude, Perplexity, Google AI Overviews, and Microsoft Copilot. Defines the MAHI Index (Marketing Agent Health Index), the MAD-M (Marketing Agent Decay Model), and the MAHI-100 benchmark for evaluating how AI systems decide which businesses to cite.",
+  "identifier": "https://github.com/aikks2025-star/ai-citation-visibility-framework",
+  "codeRepository": "https://github.com/aikks2025-star/ai-citation-visibility-framework",
+  "url": "https://github.com/aikks2025-star/ai-citation-visibility-framework",
+  "license": "https://spdx.org/licenses/MIT",
+  "version": "0.1.0",
+  "dateCreated": "2025-01-20",
+  "datePublished": "2025-01-20",
+  "applicationCategory": "Marketing Research / AI Evaluation",
+  "developmentStatus": "active",
+  "keywords": [
+    "AI citation",
+    "answer engine optimization",
+    "generative engine optimization",
+    "AEO",
+    "GEO",
+    "MAHI Index",
+    "MAD-M",
+    "MAHI-100",
+    "LLM visibility",
+    "ChatGPT",
+    "Claude",
+    "Perplexity",
+    "Google AI Overviews",
+    "Microsoft Copilot"
+  ],
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Kristina",
+      "familyName": "Shrider",
+      "@id": "https://orcid.org/0009-0002-2655-4629",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "AI Marketing Research Institute (AIMRI); Market Disruptors Agency",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Orlando",
+          "addressRegion": "FL",
+          "addressCountry": "US"
+        }
+      }
+    }
+  ],
+  "maintainer": {
+    "@type": "Person",
+    "givenName": "Kristina",
+    "familyName": "Shrider",
+    "@id": "https://orcid.org/0009-0002-2655-4629"
+  }
+}
