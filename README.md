@@ -1,7 +1,7 @@
 # AI Citation Visibility Framework
 
 [![DOI (concept, latest)](https://zenodo.org/badge/DOI/10.5281/zenodo.20421338.svg)](https://doi.org/10.5281/zenodo.20421338)
-[![DOI (v0.1.0)](https://zenodo.org/badge/DOI/10.5281/zenodo.20421339.svg)](https://doi.org/10.5281/zenodo.20421339)
+[![DOI (v0.2.0)](https://zenodo.org/badge/DOI/10.5281/zenodo.20439504.svg)](https://doi.org/10.5281/zenodo.20439504)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0002--2655--4629-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0009-0002-2655-4629)
 
@@ -25,8 +25,24 @@ Affiliation: AI Marketing Research Institute (AIMRI); Market Disruptors AI Visib
 The framework defines:
 
 1. **A score (MAHI)** — a `[0, 100]` composite from five publicly observable sub-indices: Entity Resolution, Citation Surface, Semantic Coverage, Freshness, and Trust Graph.
-2. **A decay model (MAD-M)** — a governance-first heuristic describing how the MAHI score can erode over time without new authoritative signals. MAD-M is a planning lens, not a predictive model.
+2. **A decay model (MAD-M)** — a governance-first heuristic describing how AI-mediated marketing systems can lose visibility, attribution, and authority over time without fresh sourcing, provenance, differentiation, and review. MAD-M is a planning lens, not a predictive model.
 3. **A benchmark (MAHI-100)** — a fixed `10 × 10` taxonomy of demand-driven query templates, executed against a fixed model set with a neutral system prompt to produce reproducible, longitudinal measurements.
+
+---
+
+## MAD-M 12-week drift scenario
+
+MAD-M includes a **12-week drift scenario** used as a heuristic planning lens for content governance and refresh cycles. It is not a guaranteed prediction, ranking forecast, or fixed traffic timeline.
+
+| Phase | Timing | Risk State |
+|-------|--------|------------|
+| Freshness Advantage | Weeks 1-2 | Optimal |
+| Pattern Recognition | Weeks 3-4 | Caution |
+| Confidence Erosion | Weeks 5-6 | Caution |
+| Authority Decay | Weeks 7-8 | High Risk |
+| Systemic Deprioritization | Weeks 9+ | Critical |
+
+Use MAHI to diagnose current AI visibility health. Use MAD-M and the 12-week drift scenario to plan review, source-refresh, provenance, and content-governance cycles before unmanaged assets lose retrievability or citation share.
 
 ---
 
@@ -56,9 +72,9 @@ MAHI-100 is a **public, reproducible 100-prompt benchmark protocol**. This repo 
 
 > Shrider, K. (2026). *AI Citation Visibility Framework: MAHI Index, MAD-M Decay Model, and MAHI-100 Benchmark.* Zenodo. https://doi.org/10.5281/zenodo.20421338
 
-**Cite v0.1.0 specifically (version DOI):**
+**Cite v0.2.0 specifically (version DOI):**
 
-> Shrider, K. (2026). *AI Citation Visibility Framework: MAHI Index, MAD-M Decay Model, and MAHI-100 Benchmark* (v0.1.0). Zenodo. https://doi.org/10.5281/zenodo.20421339
+> Shrider, K. (2026). *AI Citation Visibility Framework: MAHI Index, MAD-M Decay Model, and MAHI-100 Benchmark* (v0.2.0). Zenodo. https://doi.org/10.5281/zenodo.20439504
 
 Machine-readable citation metadata is available in [`CITATION.cff`](CITATION.cff) and [`codemeta.json`](codemeta.json).
 
