@@ -10,11 +10,11 @@ How AI systems decide which businesses to cite. A reproducible, model-agnostic m
 This repository is the canonical source-of-truth for three primitives:
 
 - **MAHI Index** — Marketing Agent Health Index ([`docs/MAHI-INDEX.md`](docs/MAHI-INDEX.md))
-- **MAD-M** — Marketing Agent Decay Model ([`docs/MAD-M.md`](docs/MAD-M.md))
-- **MAHI-100** — a 100-query benchmark for AI citation visibility ([`docs/MAHI-100.md`](docs/MAHI-100.md))
+- **MAD-M** — Marketing Agent Decay Model, a governance-first heuristic ([`docs/MAD-M.md`](docs/MAD-M.md))
+- **MAHI-100** — a public, reproducible 100-prompt benchmark protocol ([`docs/MAHI-100.md`](docs/MAHI-100.md))
 
 Author: **Kristina Shrider** — ORCID [0009-0002-2655-4629](https://orcid.org/0009-0002-2655-4629)  
-Affiliation: AI Marketing Research Institute (AIMRI); Market Disruptors Agency — Orlando, FL, USA.
+Affiliation: AI Marketing Research Institute (AIMRI); Market Disruptors AI Visibility Agency — Orlando, FL, USA.
 
 ---
 
@@ -25,8 +25,30 @@ Affiliation: AI Marketing Research Institute (AIMRI); Market Disruptors Agency �
 The framework defines:
 
 1. **A score (MAHI)** — a `[0, 100]` composite from five publicly observable sub-indices: Entity Resolution, Citation Surface, Semantic Coverage, Freshness, and Trust Graph.
-2. **A decay model (MAD-M)** — an exponential model of how the MAHI score erodes over time without new authoritative signals, decomposed into four drivers (index churn, model churn, competition, canonical drift).
+2. **A decay model (MAD-M)** — a governance-first heuristic describing how the MAHI score can erode over time without new authoritative signals. MAD-M is a planning lens, not a predictive model.
 3. **A benchmark (MAHI-100)** — a fixed `10 × 10` taxonomy of demand-driven query templates, executed against a fixed model set with a neutral system prompt to produce reproducible, longitudinal measurements.
+
+---
+
+## MAHI-100 protocol & data
+
+MAHI-100 is a **public, reproducible 100-prompt benchmark protocol**. This repo ships the protocol, the prompt set, and an empty capture template:
+
+- Protocol / methodology: [`docs/MAHI-100.md`](docs/MAHI-100.md)
+- Prompt set (v1, 100 templates, `{category}` slot): [`data/mahi-100-prompts-v1.csv`](data/mahi-100-prompts-v1.csv)
+- Empty capture template (headers + one `EXAMPLE` row): [`data/mahi-100-capture-template.csv`](data/mahi-100-capture-template.csv)
+- Data directory notes: [`data/README.md`](data/README.md)
+
+### Reproduction quickstart
+
+1. **Choose a category.** Pick the `{category}` value for the entity under test (e.g., "AI visibility consulting").
+2. **Apply it to the 100 prompt templates.** Substitute `{category}` into every row of `data/mahi-100-prompts-v1.csv`.
+3. **Run the prompts across selected AI systems.** Use the neutral system prompt in `docs/MAHI-100.md` §5, across the model set you choose.
+4. **Record outputs using the capture template.** Log each response in a copy of `data/mahi-100-capture-template.csv` following the schema in `docs/MAHI-100.md` §6.
+
+> **This repo ships the protocol, prompt set, and capture template. It does not contain completed benchmark results.** Any pilot or full results will be released separately as dated, versioned files and referenced from [`data/README.md`](data/README.md).
+
+---
 
 ## How to cite
 
@@ -58,8 +80,12 @@ All inputs to the framework are publicly observable. No PII, no scraped credenti
 ├── CITATION.cff         — Citation File Format metadata
 ├── codemeta.json        — CodeMeta / schema.org metadata
 ├── .zenodo.json         — Zenodo deposit metadata
+├── data/
+│   ├── README.md                        — data directory notes (no results)
+│   ├── mahi-100-prompts-v1.csv          — 100 MAHI-100 prompt templates
+│   └── mahi-100-capture-template.csv    — empty capture template
 └── docs/
     ├── MAHI-INDEX.md    — full MAHI Index definition
-    ├── MAD-M.md         — Marketing Agent Decay Model
-    └── MAHI-100.md      — MAHI-100 benchmark specification
+    ├── MAD-M.md         — Marketing Agent Decay Model (governance heuristic)
+    └── MAHI-100.md      — MAHI-100 benchmark protocol specification
 ```

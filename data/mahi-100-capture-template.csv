@@ -1,0 +1,2 @@
+template_id,bucket,category,model_id,model_version,run_id,timestamp,entity_named,entity_cited,cited_sources_json,response_hash
+EXAMPLE-DO-NOT-USE,EXAMPLE,EXAMPLE-category,EXAMPLE-model,EXAMPLE-version,EXAMPLE-run,EXAMPLE-timestamp,EXAMPLE-true-or-false,EXAMPLE-true-or-false,"[""EXAMPLE-url-1"",""EXAMPLE-url-2""]",EXAMPLE-sha256-hash
