@@ -21,6 +21,9 @@ identifiers:
   - type: doi
     value: "10.5281/zenodo.20439504"
     description: "Version DOI for v0.2.0 only"
+  - type: doi
+    value: "10.5281/zenodo.20449307"
+    description: "Version DOI for v0.2.1 only"
 repository-code: "https://github.com/aikks2025-star/ai-citation-visibility-framework"
 url: "https://github.com/aikks2025-star/ai-citation-visibility-framework"
 license: MIT
@@ -39,5 +42,5 @@ keywords:
   - Perplexity
   - Google AI Overviews
   - Microsoft Copilot
-version: "0.2.1"
+version: "0.2.2"
 date-released: "2026-05-29"

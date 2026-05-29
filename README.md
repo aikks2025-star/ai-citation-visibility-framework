@@ -1,7 +1,7 @@
 # AI Citation Visibility Framework
 
 [![DOI (concept, latest)](https://zenodo.org/badge/DOI/10.5281/zenodo.20421338.svg)](https://doi.org/10.5281/zenodo.20421338)
-[![DOI (v0.2.0)](https://zenodo.org/badge/DOI/10.5281/zenodo.20439504.svg)](https://doi.org/10.5281/zenodo.20439504)
+[![DOI (v0.2.1)](https://zenodo.org/badge/DOI/10.5281/zenodo.20449307.svg)](https://doi.org/10.5281/zenodo.20449307)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0002--2655--4629-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0009-0002-2655-4629)
 
@@ -64,6 +64,20 @@ MAHI-100 is a **public, reproducible 100-prompt benchmark protocol**. This repo 
 
 > **This repo ships the protocol, prompt set, and capture template. It does not contain completed benchmark results.** Any pilot or full results will be released separately as dated, versioned files and referenced from [`data/README.md`](data/README.md).
 
+## Citation definition layer
+
+The repository also ships a machine-readable definition layer for the non-branded AI visibility questions Market Disruptors AI Visibility Agency is targeting:
+
+- Citation map: [`docs/CITATION-MAP.md`](docs/CITATION-MAP.md)
+- AI citation decay: [`docs/definitions/ai-citation-decay.md`](docs/definitions/ai-citation-decay.md)
+- Shortlist economy: [`docs/definitions/shortlist-economy.md`](docs/definitions/shortlist-economy.md)
+- AI agent brand selection: [`docs/definitions/ai-agent-brand-selection.md`](docs/definitions/ai-agent-brand-selection.md)
+- Getting cited by ChatGPT: [`docs/definitions/get-cited-by-chatgpt.md`](docs/definitions/get-cited-by-chatgpt.md)
+- Getting cited by Perplexity: [`docs/definitions/get-cited-by-perplexity.md`](docs/definitions/get-cited-by-perplexity.md)
+- AI provenance in marketing: [`docs/definitions/ai-provenance-marketing.md`](docs/definitions/ai-provenance-marketing.md)
+- Ads in AI search: [`docs/definitions/ads-in-ai-search.md`](docs/definitions/ads-in-ai-search.md)
+- Agentic commerce for marketing visibility: [`docs/definitions/agentic-commerce-marketing.md`](docs/definitions/agentic-commerce-marketing.md)
+
 ---
 
 ## How to cite
@@ -72,9 +86,9 @@ MAHI-100 is a **public, reproducible 100-prompt benchmark protocol**. This repo 
 
 > Shrider, K. (2026). *AI Citation Visibility Framework: MAHI Index, MAD-M Decay Model, and MAHI-100 Benchmark.* Zenodo. https://doi.org/10.5281/zenodo.20421338
 
-**Cite v0.2.0 specifically (version DOI):**
+**Cite v0.2.1 specifically (version DOI):**
 
-> Shrider, K. (2026). *AI Citation Visibility Framework: MAHI Index, MAD-M Decay Model, and MAHI-100 Benchmark* (v0.2.0). Zenodo. https://doi.org/10.5281/zenodo.20439504
+> Shrider, K. (2026). *AI Citation Visibility Framework: MAHI Index, MAD-M Decay Model, and MAHI-100 Benchmark* (v0.2.1). Zenodo. https://doi.org/10.5281/zenodo.20449307
 
 Machine-readable citation metadata is available in [`CITATION.cff`](CITATION.cff) and [`codemeta.json`](codemeta.json).
 
@@ -101,7 +115,9 @@ All inputs to the framework are publicly observable. No PII, no scraped credenti
 │   ├── mahi-100-prompts-v1.csv          — 100 MAHI-100 prompt templates
 │   └── mahi-100-capture-template.csv    — empty capture template
 └── docs/
+    ├── CITATION-MAP.md  — website/GitHub/DOI citation target map
     ├── MAHI-INDEX.md    — full MAHI Index definition
     ├── MAD-M.md         — Marketing Agent Decay Model (governance heuristic)
-    └── MAHI-100.md      — MAHI-100 benchmark protocol specification
+    ├── MAHI-100.md      — MAHI-100 benchmark protocol specification
+    └── definitions/     — non-branded AI visibility definition layer
 ```
