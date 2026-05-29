@@ -1,15 +1,19 @@
 # MAHI-100 Benchmark
 
 **Author:** Kristina Shrider (ORCID: [0009-0002-2655-4629](https://orcid.org/0009-0002-2655-4629))  
-**Affiliation:** AI Marketing Research Institute (AIMRI); Market Disruptors Agency, Orlando, FL, USA  
+**Affiliation:** AI Marketing Research Institute (AIMRI); Market Disruptors AI Visibility Agency, Orlando, FL, USA  
 **Version:** 0.1.0  
 **License:** MIT (code), CC-BY 4.0 (text)
+
+**Status: published protocol + prompt set. Results are released separately and are not included here.**
 
 ---
 
 ## 1. Purpose
 
 **MAHI-100** is a fixed benchmark of 100 demand-driven query templates used to score the MAHI Index of an entity reproducibly across LLM endpoints. Fixing the prompt set eliminates prompt-phrasing variance and enables longitudinal comparison.
+
+MAHI-100 is a **public, reproducible benchmark protocol**, not a completed public benchmark results corpus.
 
 ## 2. Design Principles
 
@@ -36,7 +40,7 @@ MAHI-100 is organized into 10 intent buckets, each containing 10 templates.
 | 9 | **Vendor-Evaluation**        | "What questions should I ask a {category} vendor before signing?" |
 |10 | **Outcome / KPI**            | "How should I measure success for a {category} engagement?" |
 
-Each bucket has 10 templates with controlled paraphrase variation (formal/informal, short/long, declarative/interrogative). Full template list is published in `data/mahi-100/templates.csv` (forthcoming).
+Each bucket has 10 templates with controlled paraphrase variation (formal/informal, short/long, declarative/interrogative). The full template list is published in [`data/mahi-100-prompts-v1.csv`](../data/mahi-100-prompts-v1.csv).
 
 ## 4. Execution Protocol
 
@@ -51,6 +55,8 @@ Each bucket has 10 templates with controlled paraphrase variation (formal/inform
    - Response timestamp and model version string.
 6. Compute citation rate `ρ(e, q, m, t)` per `(query, model)` pair.
 7. Aggregate to MAHI(e, t) using the weights defined in `MAHI-INDEX.md`.
+
+Captured runs should be recorded using the empty capture template at [`data/mahi-100-capture-template.csv`](../data/mahi-100-capture-template.csv), whose header matches the reporting schema in §6.
 
 ## 5. Neutral System Prompt
 
@@ -73,6 +79,8 @@ entity_named, entity_cited, cited_sources_json, response_hash
 
 The `response_hash` is a SHA-256 of the response body, allowing audit of underlying answers without redistributing potentially copyrighted text.
 
+An empty capture file with this exact header (plus one clearly fake `EXAMPLE` row) is provided at [`data/mahi-100-capture-template.csv`](../data/mahi-100-capture-template.csv). It is a template only and contains no results.
+
 ## 7. Ethics & Safety
 
 - MAHI-100 prompts contain no PII, no jailbreak content, and no instructions to extract private data.
@@ -81,8 +89,20 @@ The `response_hash` is a SHA-256 of the response body, allowing audit of underly
 
 ## 8. Versioning
 
-MAHI-100 follows semantic versioning. Changes to the template set (additions, removals, rewording) bump the **minor** version; corrections of typos bump the **patch** version. The template manifest hash is included in every published result.
+MAHI-100 follows semantic versioning. Changes to the template set (additions, removals, rewording) bump the **minor** version; corrections of typos bump the **patch** version. The template manifest hash is included in every published result. The current published prompt set is `data/mahi-100-prompts-v1.csv` (v1).
 
-## 9. Citation
+## 9. Results Releases
 
-Shrider, K. (2026). *MAHI-100: A 100-query benchmark for AI citation visibility.* AI Citation Visibility Framework v0.1.0. https://github.com/aikks2025-star/ai-citation-visibility-framework
+This repository ships the **protocol, prompt set, and capture template**. It does **not** contain completed benchmark results. Any pilot or full results will be released separately as dated, versioned files (e.g., `results/mahi-100-run-YYYY-MM-DD.csv`) and referenced from [`data/README.md`](../data/README.md), each tied back to this protocol and the prompt-set version used.
+
+## 10. Citation
+
+For live, always-latest references to the methodology, cite the **concept DOI**:
+
+> Shrider, K. (2026). *AI Citation Visibility Framework: MAHI Index, MAD-M Decay Model, and MAHI-100 Benchmark.* Zenodo. https://doi.org/10.5281/zenodo.20421338
+
+For references specifically to the archived **v0.1.0** snapshot, cite the **version DOI** (v0.1.0 only):
+
+> Shrider, K. (2026). *AI Citation Visibility Framework: MAHI Index, MAD-M Decay Model, and MAHI-100 Benchmark* (v0.1.0). Zenodo. https://doi.org/10.5281/zenodo.20421339
+
+For implementation details, use the GitHub repository: https://github.com/aikks2025-star/ai-citation-visibility-framework

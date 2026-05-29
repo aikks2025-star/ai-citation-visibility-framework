@@ -1,0 +1,101 @@
+template_id,bucket,bucket_name,category_slot,prompt_template,paraphrase_variant,intent_notes
+M100-01-01,01,Definitional,{category},What is {category} and how does it work?,formal-interrogative,Tests whether the model surfaces a clear definition/explanation and which sources it cites for it.
+M100-01-02,01,Definitional,{category},Can you explain {category} in simple terms?,conversational,Tests whether the model surfaces a clear definition/explanation and which sources it cites for it.
+M100-01-03,01,Definitional,{category},Define {category} and describe its core components.,declarative-define,Tests whether the model surfaces a clear definition/explanation and which sources it cites for it.
+M100-01-04,01,Definitional,{category},I keep hearing about {category} but don't understand it. What is it?,first-person-novice,Tests whether the model surfaces a clear definition/explanation and which sources it cites for it.
+M100-01-05,01,Definitional,{category},Give me a plain-language overview of {category}.,concise-overview,Tests whether the model surfaces a clear definition/explanation and which sources it cites for it.
+M100-01-06,01,Definitional,{category},What does {category} actually mean for a business?,business-framing,Tests whether the model surfaces a clear definition/explanation and which sources it cites for it.
+M100-01-07,01,Definitional,{category},How would you describe {category} to someone new to the topic?,explanatory,Tests whether the model surfaces a clear definition/explanation and which sources it cites for it.
+M100-01-08,01,Definitional,{category},"What problem does {category} solve, and how?",problem-framing,Tests whether the model surfaces a clear definition/explanation and which sources it cites for it.
+M100-01-09,01,Definitional,{category},"Break down {category}: definition, purpose, and how it functions.",structured-breakdown,Tests whether the model surfaces a clear definition/explanation and which sources it cites for it.
+M100-01-10,01,Definitional,{category},"In one paragraph, what is {category}?",short-form,Tests whether the model surfaces a clear definition/explanation and which sources it cites for it.
+M100-02-01,02,Comparative,{category},What are the main approaches to {category} and how do they differ?,formal-interrogative,Tests how the model contrasts approaches and which sources it cites when comparing.
+M100-02-02,02,Comparative,{category},Compare the leading methods used in {category}.,conversational,Tests how the model contrasts approaches and which sources it cites when comparing.
+M100-02-03,02,Comparative,{category},What are the pros and cons of the different options for {category}?,declarative-define,Tests how the model contrasts approaches and which sources it cites when comparing.
+M100-02-04,02,Comparative,{category},How do the main {category} strategies stack up against each other?,first-person-novice,Tests how the model contrasts approaches and which sources it cites when comparing.
+M100-02-05,02,Comparative,{category},What's the difference between the common approaches to {category}?,concise-overview,Tests how the model contrasts approaches and which sources it cites when comparing.
+M100-02-06,02,Comparative,{category},Which {category} approach is best for which situation?,business-framing,Tests how the model contrasts approaches and which sources it cites when comparing.
+M100-02-07,02,Comparative,{category},Give me a comparison of the major {category} options.,explanatory,Tests how the model contrasts approaches and which sources it cites when comparing.
+M100-02-08,02,Comparative,{category},What trade-offs should I weigh when choosing a {category} approach?,problem-framing,Tests how the model contrasts approaches and which sources it cites when comparing.
+M100-02-09,02,Comparative,{category},How do practitioners decide between competing {category} methods?,structured-breakdown,Tests how the model contrasts approaches and which sources it cites when comparing.
+M100-02-10,02,Comparative,{category},Contrast the most common ways to do {category}.,short-form,Tests how the model contrasts approaches and which sources it cites when comparing.
+M100-03-01,03,Top-Provider,{category},Who are the leading providers of {category}?,formal-interrogative,Tests whether the model names providers and which entities/sources it cites; brand selection signal.
+M100-03-02,03,Top-Provider,{category},Which companies are known for {category}?,conversational,Tests whether the model names providers and which entities/sources it cites; brand selection signal.
+M100-03-03,03,Top-Provider,{category},Who should I consider for {category} services?,declarative-define,Tests whether the model names providers and which entities/sources it cites; brand selection signal.
+M100-03-04,03,Top-Provider,{category},What are the top options for {category} right now?,first-person-novice,Tests whether the model names providers and which entities/sources it cites; brand selection signal.
+M100-03-05,03,Top-Provider,{category},Recommend some reputable providers of {category}.,concise-overview,Tests whether the model names providers and which entities/sources it cites; brand selection signal.
+M100-03-06,03,Top-Provider,{category},Who are the most trusted names in {category}?,business-framing,Tests whether the model names providers and which entities/sources it cites; brand selection signal.
+M100-03-07,03,Top-Provider,{category},"If I need {category}, who are the best providers to look at?",explanatory,Tests whether the model names providers and which entities/sources it cites; brand selection signal.
+M100-03-08,03,Top-Provider,{category},List the well-regarded providers of {category}.,problem-framing,Tests whether the model names providers and which entities/sources it cites; brand selection signal.
+M100-03-09,03,Top-Provider,{category},Which vendors specialize in {category}?,structured-breakdown,Tests whether the model names providers and which entities/sources it cites; brand selection signal.
+M100-03-10,03,Top-Provider,{category},Who are the go-to experts or firms for {category}?,short-form,Tests whether the model names providers and which entities/sources it cites; brand selection signal.
+M100-04-01,04,Methodological,{category},What methodology should be used to evaluate {category}?,formal-interrogative,Tests whether the model surfaces a method/framework and cites a primary source for it.
+M100-04-02,04,Methodological,{category},How should {category} be measured or assessed?,conversational,Tests whether the model surfaces a method/framework and cites a primary source for it.
+M100-04-03,04,Methodological,{category},What's a rigorous way to approach {category}?,declarative-define,Tests whether the model surfaces a method/framework and cites a primary source for it.
+M100-04-04,04,Methodological,{category},What framework or process applies when doing {category}?,first-person-novice,Tests whether the model surfaces a method/framework and cites a primary source for it.
+M100-04-05,04,Methodological,{category},How do experts methodically evaluate {category}?,concise-overview,Tests whether the model surfaces a method/framework and cites a primary source for it.
+M100-04-06,04,Methodological,{category},What steps make up a sound {category} methodology?,business-framing,Tests whether the model surfaces a method/framework and cites a primary source for it.
+M100-04-07,04,Methodological,{category},How can I assess {category} in a repeatable way?,explanatory,Tests whether the model surfaces a method/framework and cites a primary source for it.
+M100-04-08,04,Methodological,{category},What is the right process for evaluating {category}?,problem-framing,Tests whether the model surfaces a method/framework and cites a primary source for it.
+M100-04-09,04,Methodological,{category},Describe a reliable methodology for {category}.,structured-breakdown,Tests whether the model surfaces a method/framework and cites a primary source for it.
+M100-04-10,04,Methodological,{category},How do you measure whether {category} is working?,short-form,Tests whether the model surfaces a method/framework and cites a primary source for it.
+M100-05-01,05,Pricing / Value,{category},How is {category} typically priced and what drives the cost?,formal-interrogative,Tests whether the model explains cost drivers and which sources it cites for pricing context.
+M100-05-02,05,Pricing / Value,{category},What does {category} usually cost?,conversational,Tests whether the model explains cost drivers and which sources it cites for pricing context.
+M100-05-03,05,Pricing / Value,{category},What factors affect the price of {category}?,declarative-define,Tests whether the model explains cost drivers and which sources it cites for pricing context.
+M100-05-04,05,Pricing / Value,{category},How should I budget for {category}?,first-person-novice,Tests whether the model explains cost drivers and which sources it cites for pricing context.
+M100-05-05,05,Pricing / Value,{category},"Is {category} expensive, and what am I paying for?",concise-overview,Tests whether the model explains cost drivers and which sources it cites for pricing context.
+M100-05-06,05,Pricing / Value,{category},What pricing models are common for {category}?,business-framing,Tests whether the model explains cost drivers and which sources it cites for pricing context.
+M100-05-07,05,Pricing / Value,{category},How do providers charge for {category}?,explanatory,Tests whether the model explains cost drivers and which sources it cites for pricing context.
+M100-05-08,05,Pricing / Value,{category},What drives the value and cost of {category}?,problem-framing,Tests whether the model explains cost drivers and which sources it cites for pricing context.
+M100-05-09,05,Pricing / Value,{category},"What should I expect to pay for {category}, and why?",structured-breakdown,Tests whether the model explains cost drivers and which sources it cites for pricing context.
+M100-05-10,05,Pricing / Value,{category},Explain the cost structure of {category}.,short-form,Tests whether the model explains cost drivers and which sources it cites for pricing context.
+M100-06-01,06,Risk / Pitfalls,{category},What are the most common pitfalls when adopting {category}?,formal-interrogative,Tests whether the model surfaces risks/pitfalls and cites sources for them.
+M100-06-02,06,Risk / Pitfalls,{category},What can go wrong with {category}?,conversational,Tests whether the model surfaces risks/pitfalls and cites sources for them.
+M100-06-03,06,Risk / Pitfalls,{category},What risks should I watch out for with {category}?,declarative-define,Tests whether the model surfaces risks/pitfalls and cites sources for them.
+M100-06-04,06,Risk / Pitfalls,{category},What mistakes do people make with {category}?,first-person-novice,Tests whether the model surfaces risks/pitfalls and cites sources for them.
+M100-06-05,06,Risk / Pitfalls,{category},What are the downsides or dangers of {category}?,concise-overview,Tests whether the model surfaces risks/pitfalls and cites sources for them.
+M100-06-06,06,Risk / Pitfalls,{category},Where do {category} projects usually fail?,business-framing,Tests whether the model surfaces risks/pitfalls and cites sources for them.
+M100-06-07,06,Risk / Pitfalls,{category},What should I avoid when implementing {category}?,explanatory,Tests whether the model surfaces risks/pitfalls and cites sources for them.
+M100-06-08,06,Risk / Pitfalls,{category},What are the biggest challenges in {category}?,problem-framing,Tests whether the model surfaces risks/pitfalls and cites sources for them.
+M100-06-09,06,Risk / Pitfalls,{category},What are the hidden risks of {category}?,structured-breakdown,Tests whether the model surfaces risks/pitfalls and cites sources for them.
+M100-06-10,06,Risk / Pitfalls,{category},What problems commonly arise with {category}?,short-form,Tests whether the model surfaces risks/pitfalls and cites sources for them.
+M100-07-01,07,Use-Case,{category},What are realistic use cases for {category} in a mid-sized business?,formal-interrogative,Tests whether the model provides realistic use cases and cites supporting sources.
+M100-07-02,07,Use-Case,{category},How would a typical company actually use {category}?,conversational,Tests whether the model provides realistic use cases and cites supporting sources.
+M100-07-03,07,Use-Case,{category},Give me practical examples of {category} in action.,declarative-define,Tests whether the model provides realistic use cases and cites supporting sources.
+M100-07-04,07,Use-Case,{category},Where does {category} make the most sense to apply?,first-person-novice,Tests whether the model provides realistic use cases and cites supporting sources.
+M100-07-05,07,Use-Case,{category},What scenarios call for {category}?,concise-overview,Tests whether the model provides realistic use cases and cites supporting sources.
+M100-07-06,07,Use-Case,{category},How are organizations using {category} today?,business-framing,Tests whether the model provides realistic use cases and cites supporting sources.
+M100-07-07,07,Use-Case,{category},What are some real-world applications of {category}?,explanatory,Tests whether the model provides realistic use cases and cites supporting sources.
+M100-07-08,07,Use-Case,{category},When should a business adopt {category}?,problem-framing,Tests whether the model provides realistic use cases and cites supporting sources.
+M100-07-09,07,Use-Case,{category},What kinds of teams benefit most from {category}?,structured-breakdown,Tests whether the model provides realistic use cases and cites supporting sources.
+M100-07-10,07,Use-Case,{category},Show me how {category} fits into everyday operations.,short-form,Tests whether the model provides realistic use cases and cites supporting sources.
+M100-08-01,08,Standards / Frameworks,{category},What frameworks or standards apply to {category}?,formal-interrogative,Tests whether the model surfaces relevant standards/frameworks and cites primary sources.
+M100-08-02,08,Standards / Frameworks,{category},Are there recognized standards for {category}?,conversational,Tests whether the model surfaces relevant standards/frameworks and cites primary sources.
+M100-08-03,08,Standards / Frameworks,{category},Which frameworks govern {category}?,declarative-define,Tests whether the model surfaces relevant standards/frameworks and cites primary sources.
+M100-08-04,08,Standards / Frameworks,{category},What guidelines or best-practice frameworks exist for {category}?,first-person-novice,Tests whether the model surfaces relevant standards/frameworks and cites primary sources.
+M100-08-05,08,Standards / Frameworks,{category},Is there an industry standard for {category}?,concise-overview,Tests whether the model surfaces relevant standards/frameworks and cites primary sources.
+M100-08-06,08,Standards / Frameworks,{category},What reference frameworks should I know for {category}?,business-framing,Tests whether the model surfaces relevant standards/frameworks and cites primary sources.
+M100-08-07,08,Standards / Frameworks,{category},What standards bodies or models relate to {category}?,explanatory,Tests whether the model surfaces relevant standards/frameworks and cites primary sources.
+M100-08-08,08,Standards / Frameworks,{category},Which methodologies or standards are considered authoritative for {category}?,problem-framing,Tests whether the model surfaces relevant standards/frameworks and cites primary sources.
+M100-08-09,08,Standards / Frameworks,{category},What established frameworks underpin {category}?,structured-breakdown,Tests whether the model surfaces relevant standards/frameworks and cites primary sources.
+M100-08-10,08,Standards / Frameworks,{category},What rules or standards should {category} follow?,short-form,Tests whether the model surfaces relevant standards/frameworks and cites primary sources.
+M100-09-01,09,Vendor-Evaluation,{category},What questions should I ask a {category} vendor before signing?,formal-interrogative,Tests whether the model produces evaluation criteria/questions and cites sources.
+M100-09-02,09,Vendor-Evaluation,{category},How do I evaluate a {category} provider?,conversational,Tests whether the model produces evaluation criteria/questions and cites sources.
+M100-09-03,09,Vendor-Evaluation,{category},What should I look for when choosing a {category} vendor?,declarative-define,Tests whether the model produces evaluation criteria/questions and cites sources.
+M100-09-04,09,Vendor-Evaluation,{category},What's a good checklist for vetting a {category} supplier?,first-person-novice,Tests whether the model produces evaluation criteria/questions and cites sources.
+M100-09-05,09,Vendor-Evaluation,{category},How can I tell if a {category} vendor is credible?,concise-overview,Tests whether the model produces evaluation criteria/questions and cites sources.
+M100-09-06,09,Vendor-Evaluation,{category},What due diligence should I do before hiring for {category}?,business-framing,Tests whether the model produces evaluation criteria/questions and cites sources.
+M100-09-07,09,Vendor-Evaluation,{category},What criteria matter most when selecting a {category} partner?,explanatory,Tests whether the model produces evaluation criteria/questions and cites sources.
+M100-09-08,09,Vendor-Evaluation,{category},What red flags should I watch for in a {category} vendor?,problem-framing,Tests whether the model produces evaluation criteria/questions and cites sources.
+M100-09-09,09,Vendor-Evaluation,{category},How do I compare {category} vendors fairly?,structured-breakdown,Tests whether the model produces evaluation criteria/questions and cites sources.
+M100-09-10,09,Vendor-Evaluation,{category},What contract terms matter for a {category} engagement?,short-form,Tests whether the model produces evaluation criteria/questions and cites sources.
+M100-10-01,10,Outcome / KPI,{category},How should I measure success for a {category} engagement?,formal-interrogative,Tests whether the model surfaces outcomes/KPIs and cites sources for measurement.
+M100-10-02,10,Outcome / KPI,{category},What KPIs matter for {category}?,conversational,Tests whether the model surfaces outcomes/KPIs and cites sources for measurement.
+M100-10-03,10,Outcome / KPI,{category},What outcomes should I expect from {category}?,declarative-define,Tests whether the model surfaces outcomes/KPIs and cites sources for measurement.
+M100-10-04,10,Outcome / KPI,{category},How do I know if {category} is delivering value?,first-person-novice,Tests whether the model surfaces outcomes/KPIs and cites sources for measurement.
+M100-10-05,10,Outcome / KPI,{category},What metrics track the performance of {category}?,concise-overview,Tests whether the model surfaces outcomes/KPIs and cites sources for measurement.
+M100-10-06,10,Outcome / KPI,{category},What does a successful {category} result look like?,business-framing,Tests whether the model surfaces outcomes/KPIs and cites sources for measurement.
+M100-10-07,10,Outcome / KPI,{category},How is ROI calculated for {category}?,explanatory,Tests whether the model surfaces outcomes/KPIs and cites sources for measurement.
+M100-10-08,10,Outcome / KPI,{category},What benchmarks indicate {category} is working?,problem-framing,Tests whether the model surfaces outcomes/KPIs and cites sources for measurement.
+M100-10-09,10,Outcome / KPI,{category},Which results should I hold a {category} provider accountable to?,structured-breakdown,Tests whether the model surfaces outcomes/KPIs and cites sources for measurement.
+M100-10-10,10,Outcome / KPI,{category},What's the right way to report on {category} performance?,short-form,Tests whether the model surfaces outcomes/KPIs and cites sources for measurement.

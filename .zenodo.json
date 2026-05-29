@@ -1,14 +1,32 @@
 {
   "title": "AI Citation Visibility Framework: MAHI Index, MAD-M Decay Model, and MAHI-100 Benchmark",
-  "description": "A reproducible measurement framework for AI visibility across ChatGPT, Claude, Perplexity, Google AI Overviews, and Microsoft Copilot. Defines the MAHI Index (Marketing Agent Health Index), the MAD-M (Marketing Agent Decay Model), and the MAHI-100 benchmark for evaluating how AI systems decide which businesses to cite.",
+  "description": "A reproducible measurement framework for AI visibility across ChatGPT, Claude, Perplexity, Google AI Overviews, and Microsoft Copilot. Defines the MAHI Index (Marketing Agent Health Index), the MAD-M (Marketing Agent Decay Model), and the MAHI-100 benchmark for evaluating how AI systems decide which businesses to cite. MAHI-100 is a public, reproducible 100-prompt benchmark protocol; this deposit ships the protocol, prompt set, and an empty capture template and does NOT include completed benchmark results.",
+  "notes": "MAHI-100 is a reproducible benchmark protocol, not a completed public benchmark results release. No scores, rankings, named entities, or model outputs are included in this deposit. MAD-M is a governance-first heuristic, not a predictive model.",
   "upload_type": "software",
   "access_right": "open",
   "license": "MIT",
   "creators": [
     {
       "name": "Shrider, Kristina",
-      "affiliation": "AI Marketing Research Institute (AIMRI); Market Disruptors Agency, Orlando, FL, USA",
+      "affiliation": "AI Marketing Research Institute (AIMRI); Market Disruptors AI Visibility Agency, Orlando, FL, USA",
       "orcid": "0009-0002-2655-4629"
+    }
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/aikks2025-star/ai-citation-visibility-framework",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.5281/zenodo.20421338",
+      "relation": "isVersionOf",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "https://marketdisruptorsagency.com/mahi-100",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
     }
   ],
   "keywords": [
