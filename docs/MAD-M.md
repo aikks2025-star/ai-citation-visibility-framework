@@ -1,8 +1,10 @@
 # MAD-M: Marketing Agent Decay Model
 
 **Author:** Kristina Shrider (ORCID: [0009-0002-2655-4629](https://orcid.org/0009-0002-2655-4629))  
-**Affiliation:** AI Marketing Research Institute (AIMRI); Market Disruptors Agency, Orlando, FL, USA  
-**Version:** 0.2.1  
+**Affiliation:** AI Marketing Research Initiative (AIMRI); Market Disruptors AI Visibility Agency, Orlando, FL, USA  
+**Version:** 0.2.2  
+**Concept DOI:** https://doi.org/10.5281/zenodo.20421338  
+**Version DOI (v0.2.2):** https://doi.org/10.5281/zenodo.20450041  
 **License:** MIT (code), CC-BY 4.0 (text)
 
 ---
@@ -107,4 +109,10 @@ These bands are illustrative only. They must not be treated as universal benchma
 
 ## 9. Citation
 
+Always-latest (concept):
+
 Shrider, K. (2026). *MAD-M: Marketing Agent Decay Model for AI citation visibility.* AI Citation Visibility Framework. https://doi.org/10.5281/zenodo.20421338
+
+Fixed version (v0.2.2 — use this when citing the 12-week drift scenario or any specific decay-rate driver list):
+
+Shrider, K. (2026). *MAD-M: Marketing Agent Decay Model for AI citation visibility* (v0.2.2). AI Citation Visibility Framework. https://doi.org/10.5281/zenodo.20450041
