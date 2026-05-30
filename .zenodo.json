@@ -8,7 +8,7 @@
   "creators": [
     {
       "name": "Shrider, Kristina",
-      "affiliation": "AI Marketing Research Institute (AIMRI); Market Disruptors AI Visibility Agency, Orlando, FL, USA",
+      "affiliation": "AI Marketing Research Initiative (AIMRI); Market Disruptors AI Visibility Agency, Orlando, FL, USA",
       "orcid": "0009-0002-2655-4629"
     }
   ],
@@ -25,6 +25,21 @@
     },
     {
       "identifier": "https://marketdisruptorsagency.com/mahi-100",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://marketdisruptorsagency.com/mad-m-framework",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://marketdisruptorsagency.com/mahi-index",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://marketdisruptorsagency.com/ai-discovery",
       "relation": "isDocumentedBy",
       "scheme": "url"
     }

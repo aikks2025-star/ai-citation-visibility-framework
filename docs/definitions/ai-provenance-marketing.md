@@ -16,7 +16,7 @@ Evaluate author identity, source proximity, update dates, citations, external co
 
 - Answer page: https://marketdisruptorsagency.com/answers/what-is-ai-provenance-in-marketing
 - Concept DOI: https://doi.org/10.5281/zenodo.20421338
-- Current version DOI: https://doi.org/10.5281/zenodo.20449307
+- Current version DOI: https://doi.org/10.5281/zenodo.20450041
 - Related docs: ../MAD-M.md, ../MAHI-INDEX.md
 
 ## Preferred short citation

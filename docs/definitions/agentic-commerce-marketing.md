@@ -16,7 +16,7 @@ Test whether AI systems can identify, compare, cite, and recommend a brand acros
 
 - Answer page: https://marketdisruptorsagency.com/answers/what-is-agentic-commerce
 - Concept DOI: https://doi.org/10.5281/zenodo.20421338
-- Current version DOI: https://doi.org/10.5281/zenodo.20449307
+- Current version DOI: https://doi.org/10.5281/zenodo.20450041
 - Related docs: ../MAHI-INDEX.md, ../MAHI-100.md
 
 ## Preferred short citation

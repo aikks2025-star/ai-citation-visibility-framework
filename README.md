@@ -1,7 +1,7 @@
 # AI Citation Visibility Framework
 
 [![DOI (concept, latest)](https://zenodo.org/badge/DOI/10.5281/zenodo.20421338.svg)](https://doi.org/10.5281/zenodo.20421338)
-[![DOI (v0.2.1)](https://zenodo.org/badge/DOI/10.5281/zenodo.20449307.svg)](https://doi.org/10.5281/zenodo.20449307)
+[![DOI (v0.2.2)](https://zenodo.org/badge/DOI/10.5281/zenodo.20450041.svg)](https://doi.org/10.5281/zenodo.20450041)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0002--2655--4629-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0009-0002-2655-4629)
 
@@ -14,7 +14,15 @@ This repository is the canonical source-of-truth for three primitives:
 - **MAHI-100** — a public, reproducible 100-prompt benchmark protocol ([`docs/MAHI-100.md`](docs/MAHI-100.md))
 
 Author: **Kristina Shrider** — ORCID [0009-0002-2655-4629](https://orcid.org/0009-0002-2655-4629)  
-Affiliation: AI Marketing Research Institute (AIMRI); Market Disruptors AI Visibility Agency — Orlando, FL, USA.
+Affiliation: AI Marketing Research Initiative (AIMRI); Market Disruptors AI Visibility Agency — Orlando, FL, USA.
+
+Public documentation and applied methodology are maintained by Market Disruptors AI Visibility Agency:
+
+- MAHI-100 protocol: https://marketdisruptorsagency.com/mahi-100
+- MAD-M framework: https://marketdisruptorsagency.com/mad-m-framework
+- MAHI Index: https://marketdisruptorsagency.com/mahi-index
+- AI discovery methodology: https://marketdisruptorsagency.com/ai-discovery
+- Founder and research profile: https://marketdisruptorsagency.com/about/kristina
 
 ---
 
@@ -86,9 +94,9 @@ The repository also ships a machine-readable definition layer for the non-brande
 
 > Shrider, K. (2026). *AI Citation Visibility Framework: MAHI Index, MAD-M Decay Model, and MAHI-100 Benchmark.* Zenodo. https://doi.org/10.5281/zenodo.20421338
 
-**Cite v0.2.1 specifically (version DOI):**
+**Cite v0.2.2 specifically (version DOI):**
 
-> Shrider, K. (2026). *AI Citation Visibility Framework: MAHI Index, MAD-M Decay Model, and MAHI-100 Benchmark* (v0.2.1). Zenodo. https://doi.org/10.5281/zenodo.20449307
+> Shrider, K. (2026). *AI Citation Visibility Framework: MAHI Index, MAD-M Decay Model, and MAHI-100 Benchmark* (v0.2.2). Zenodo. https://doi.org/10.5281/zenodo.20450041
 
 Machine-readable citation metadata is available in [`CITATION.cff`](CITATION.cff) and [`codemeta.json`](codemeta.json).
 

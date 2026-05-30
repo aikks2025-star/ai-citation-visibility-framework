@@ -1,7 +1,7 @@
 # MAHI-100 Benchmark
 
 **Author:** Kristina Shrider (ORCID: [0009-0002-2655-4629](https://orcid.org/0009-0002-2655-4629))  
-**Affiliation:** AI Marketing Research Institute (AIMRI); Market Disruptors AI Visibility Agency, Orlando, FL, USA  
+**Affiliation:** AI Marketing Research Initiative (AIMRI); Market Disruptors AI Visibility Agency, Orlando, FL, USA
 **Version:** 0.1.0  
 **License:** MIT (code), CC-BY 4.0 (text)
 
@@ -79,7 +79,7 @@ entity_named, entity_cited, cited_sources_json, response_hash
 
 The `response_hash` is a SHA-256 of the response body, allowing audit of underlying answers without redistributing potentially copyrighted text.
 
-An empty capture file with this exact header (plus one clearly fake `EXAMPLE` row) is provided at [`data/mahi-100-capture-template.csv`](../data/mahi-100-capture-template.csv). It is a template only and contains no results.
+An empty capture file with this exact header (plus one clearly labeled placeholder `EXAMPLE` row) is provided at [`data/mahi-100-capture-template.csv`](../data/mahi-100-capture-template.csv). It is a template only and contains no results.
 
 ## 7. Ethics & Safety
 

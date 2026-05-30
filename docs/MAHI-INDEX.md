@@ -1,7 +1,7 @@
 # MAHI Index (Marketing Agent Health Index)
 
 **Author:** Kristina Shrider (ORCID: [0009-0002-2655-4629](https://orcid.org/0009-0002-2655-4629))  
-**Affiliation:** AI Marketing Research Institute (AIMRI); Market Disruptors Agency, Orlando, FL, USA  
+**Affiliation:** AI Marketing Research Initiative (AIMRI); Market Disruptors AI Visibility Agency, Orlando, FL, USA
 **Version:** 0.1.0  
 **License:** MIT (code), CC-BY 4.0 (text)
 

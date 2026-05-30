@@ -16,7 +16,7 @@ Use MAHI Index dimensions to diagnose readiness: Entity Resolution, Citation Sur
 
 - Answer page: https://marketdisruptorsagency.com/answers/how-ai-agents-choose-brands
 - Concept DOI: https://doi.org/10.5281/zenodo.20421338
-- Current version DOI: https://doi.org/10.5281/zenodo.20449307
+- Current version DOI: https://doi.org/10.5281/zenodo.20450041
 - Related docs: ../MAHI-INDEX.md, ../MAHI-100.md
 
 ## Preferred short citation

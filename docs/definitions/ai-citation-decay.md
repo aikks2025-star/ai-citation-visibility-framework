@@ -18,7 +18,7 @@ MAHI-100 provides the reproducible capture structure. MAD-M provides the governa
 
 - Answer page: https://marketdisruptorsagency.com/answers/what-is-ai-citation-decay
 - Concept DOI: https://doi.org/10.5281/zenodo.20421338
-- Current version DOI: https://doi.org/10.5281/zenodo.20449307
+- Current version DOI: https://doi.org/10.5281/zenodo.20450041
 - Related docs: ../MAD-M.md, ../MAHI-100.md, ../MAHI-INDEX.md
 
 ## Preferred short citation

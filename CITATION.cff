@@ -7,7 +7,7 @@ authors:
   - family-names: "Shrider"
     given-names: "Kristina"
     orcid: "https://orcid.org/0009-0002-2655-4629"
-    affiliation: "AI Marketing Research Institute (AIMRI); Market Disruptors AI Visibility Agency"
+    affiliation: "AI Marketing Research Initiative (AIMRI); Market Disruptors AI Visibility Agency"
     city: "Orlando"
     region: "FL"
     country: "US"
@@ -24,6 +24,9 @@ identifiers:
   - type: doi
     value: "10.5281/zenodo.20449307"
     description: "Version DOI for v0.2.1 only"
+  - type: doi
+    value: "10.5281/zenodo.20450041"
+    description: "Version DOI for v0.2.2 only"
 repository-code: "https://github.com/aikks2025-star/ai-citation-visibility-framework"
 url: "https://github.com/aikks2025-star/ai-citation-visibility-framework"
 license: MIT

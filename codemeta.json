@@ -36,7 +36,7 @@
       "@id": "https://orcid.org/0009-0002-2655-4629",
       "affiliation": {
         "@type": "Organization",
-        "name": "AI Marketing Research Institute (AIMRI); Market Disruptors Agency",
+        "name": "AI Marketing Research Initiative (AIMRI); Market Disruptors AI Visibility Agency",
         "address": {
           "@type": "PostalAddress",
           "addressLocality": "Orlando",

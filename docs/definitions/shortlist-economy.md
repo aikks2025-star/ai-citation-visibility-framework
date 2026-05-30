@@ -16,7 +16,7 @@ Track whether a brand is absent, mentioned, cited, recommended, or compared acro
 
 - Answer page: https://marketdisruptorsagency.com/answers/what-is-the-shortlist-economy
 - Concept DOI: https://doi.org/10.5281/zenodo.20421338
-- Current version DOI: https://doi.org/10.5281/zenodo.20449307
+- Current version DOI: https://doi.org/10.5281/zenodo.20450041
 - Related docs: ../MAHI-INDEX.md, ../MAHI-100.md, ../MAD-M.md
 
 ## Preferred short citation

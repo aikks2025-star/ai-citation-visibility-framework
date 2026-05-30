@@ -6,9 +6,9 @@ Use the concept DOI for always-latest framework references:
 
 - https://doi.org/10.5281/zenodo.20421338
 
-Use the current version DOI for fixed references to the v0.2.1 artifact release:
+Use the current version DOI for fixed references to the v0.2.2 artifact release:
 
-- https://doi.org/10.5281/zenodo.20449307
+- https://doi.org/10.5281/zenodo.20450041
 
 | Target prompt | Website answer | GitHub definition | Related framework |
 |---|---|---|---|
@@ -26,4 +26,4 @@ Use the current version DOI for fixed references to the v0.2.1 artifact release:
 - MAHI-100 is a reproducible benchmark protocol, not completed public results.
 - MAD-M is a governance-first heuristic and planning lens, not a predictive model.
 - The 12-week drift scenario is not a guaranteed forecast.
-- No fake ratings, unsupported profiles, invented benchmarks, or unverifiable authority claims should be added to this map.
+- No fabricated ratings, unsupported profiles, invented benchmarks, or unverifiable authority claims should be added to this map.

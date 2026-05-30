@@ -16,7 +16,7 @@ Run a fixed prompt panel and record prompt text, model settings, response text, 
 
 - Answer page: https://marketdisruptorsagency.com/answers/how-do-businesses-get-cited-by-chatgpt
 - Concept DOI: https://doi.org/10.5281/zenodo.20421338
-- Current version DOI: https://doi.org/10.5281/zenodo.20449307
+- Current version DOI: https://doi.org/10.5281/zenodo.20450041
 - Related docs: ../MAHI-100.md, ../MAHI-INDEX.md
 
 ## Preferred short citation

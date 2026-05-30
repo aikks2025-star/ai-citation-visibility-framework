@@ -16,7 +16,7 @@ Rerun fixed prompts and record cited URLs, citation domains, response text, bran
 
 - Answer page: https://marketdisruptorsagency.com/answers/how-do-businesses-get-cited-by-perplexity
 - Concept DOI: https://doi.org/10.5281/zenodo.20421338
-- Current version DOI: https://doi.org/10.5281/zenodo.20449307
+- Current version DOI: https://doi.org/10.5281/zenodo.20450041
 - Related docs: ../MAHI-100.md, ../MAD-M.md
 
 ## Preferred short citation

@@ -16,7 +16,7 @@ Track whether ads are present separately from whether the brand is organically c
 
 - Answer page: https://marketdisruptorsagency.com/answers/why-ads-stop-working-in-ai-search
 - Concept DOI: https://doi.org/10.5281/zenodo.20421338
-- Current version DOI: https://doi.org/10.5281/zenodo.20449307
+- Current version DOI: https://doi.org/10.5281/zenodo.20450041
 - Related docs: ../MAHI-INDEX.md, ../MAHI-100.md
 
 ## Preferred short citation
